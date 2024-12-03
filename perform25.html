@@ -12,6 +12,11 @@
 
     <!-- Custom styles for this template -->
     <link href="carousel.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: black;
+        }
+    </style>
 </head>
   <body>
 
@@ -20,16 +25,16 @@
       <div id="carouselFlow" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="https://raw.githubusercontent.com/stratuscoder/nwa-ug/refs/heads/main/register.png" class="d-block w-100" alt="...">
+            <img src="https://raw.githubusercontent.com/stratuscoder/nwa-ug/refs/heads/main/register.png" class="d-block h-100" alt="...">
           </div>
           <div class="carousel-item">
-            <img src="https://raw.githubusercontent.com/stratuscoder/nwa-ug/refs/heads/main/possibilities.png" class="d-block w-90" alt="...">
+            <img src="https://raw.githubusercontent.com/stratuscoder/nwa-ug/refs/heads/main/possibilities.png" class="d-block h-100" alt="...">
           </div>
           <div class="carousel-item">
-            <img src="https://raw.githubusercontent.com/stratuscoder/nwa-ug/refs/heads/main/speakers.png" class="d-block w-90" alt="...">
+            <img src="https://raw.githubusercontent.com/stratuscoder/nwa-ug/refs/heads/main/speakers.png" class="d-block h-100" alt="...">
           </div>
           <div class="carousel-item">
-            <img src="https://raw.githubusercontent.com/stratuscoder/nwa-ug/refs/heads/main/leaders-networking.png" class="d-block w-80" alt="...">
+            <img src="https://raw.githubusercontent.com/stratuscoder/nwa-ug/refs/heads/main/leaders-networking.png" class="d-block h-100" alt="...">
           </div>
         </div>
       </div>
@@ -45,7 +50,7 @@
         const myCarouselElement = document.querySelector('#carouselFlow')
         
         const carousel = new bootstrap.Carousel(myCarouselElement, {
-          interval: 2000,
+          interval: 10000,
           touch: false
         })          
     </script>
